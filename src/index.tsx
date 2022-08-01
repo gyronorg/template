@@ -1,4 +1,4 @@
-import { createInstance } from '@gyron/runtime'
+import { createInstance } from 'gyron'
 import { createBrowserRouter, Route, Routes } from '@gyron/router'
 import { store } from './store'
 import HelloWorld from './components/HelloWorld'

@@ -1,4 +1,4 @@
-import { createInstance } from '@gyron/runtime'
+import { createInstance } from 'gyron'
 import About from '../src/components/About'
 
 test('test the about component', () => {

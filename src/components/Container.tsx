@@ -1,5 +1,5 @@
 import { Outlet } from '@gyron/router'
-import { FC } from '@gyron/runtime'
+import { FC } from 'gyron'
 
 export default FC(() => {
   return (

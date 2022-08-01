@@ -1,10 +1,10 @@
-import { FC } from '@gyron/runtime'
-import { useSelector, useDispatch } from '@gyron/dox'
-import { increment } from '@/store/module/counter'
+import { FC } from "gyron";
+import { useSelector, useDispatch } from "@gyron/dox";
+import { increment } from "@/store/module/counter";
 
 export default FC(() => {
-  const { Counter } = useSelector()
-  const dispatch = useDispatch()
+  const { Counter } = useSelector();
+  const dispatch = useDispatch();
 
   return (
     <div>
@@ -16,8 +16,8 @@ export default FC(() => {
         <ul>
           <li>
             <span>官方文档：</span>
-            <a href="https://gyron.netlify.app/" target="_blank">
-              https://gyron.netlify.app/
+            <a href="https://gyron.cc/" target="_blank">
+              https://gyron.cc/
             </a>
           </li>
           <li>
@@ -28,8 +28,8 @@ export default FC(() => {
           </li>
           <li>
             <span>Github：</span>
-            <a href="https://github.com/Linkontoask/gyron" target="_blank">
-              https://github.com/Linkontoask/gyron
+            <a href="https://github.com/gyronorg/core.git" target="_blank">
+              https://github.com/gyronorg/core.git
             </a>
           </li>
         </ul>
@@ -37,8 +37,8 @@ export default FC(() => {
       <img
         src="https://s2.loli.net/2022/06/26/njGZ4zv2Te87mhE.webp"
         alt="reward"
-        style="width: 260px"
+        style={{ width: "260px" }}
       />
     </div>
-  )
-})
+  );
+});
