@@ -1,4 +1,4 @@
-import { createStore } from '@gyron/dox'
+import { createStore } from '@gyron/redux'
 import Counter from './module/counter'
 
 export const store = createStore({

@@ -1,4 +1,4 @@
-import { createSlice } from '@gyron/dox'
+import { createSlice } from '@gyron/redux'
 
 const counter = createSlice({
   name: 'counter',

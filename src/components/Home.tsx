@@ -1,5 +1,5 @@
 import { FC } from "gyron";
-import { useSelector, useDispatch } from "@gyron/dox";
+import { useSelector, useDispatch } from "@gyron/redux";
 import { increment } from "@/store/module/counter";
 
 export default FC(() => {
