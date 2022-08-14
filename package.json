@@ -1,6 +1,6 @@
 {
   "name": "@gyron/template",
-  "version": "0.0.14",
+  "version": "0.0.16-alpha.1",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -12,10 +12,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@gyron/babel-plugin-jsx": "^0.0.14",
-    "@gyron/redux": "^0.0.14",
-    "@gyron/router": "^0.0.14",
-    "gyron": "^0.0.14"
+    "@gyron/babel-plugin-jsx": "^0.0.16-alpha.1",
+    "@gyron/redux": "^0.0.16-alpha.1",
+    "@gyron/router": "^0.0.16-alpha.1",
+    "gyron": "^0.0.16-alpha.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
