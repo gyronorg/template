@@ -943,52 +943,52 @@
   resolved "https://registry.npmmirror.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz#de2a4be678bd4d0d1ffbb86e6de779cde5999028"
   integrity sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==
 
-"@gyron/babel-plugin-jsx@^0.0.16-alpha.1":
-  version "0.0.16-alpha.1"
-  resolved "https://registry.npmmirror.com/@gyron/babel-plugin-jsx/-/babel-plugin-jsx-0.0.16-alpha.1.tgz#a797ca6538d55cdee32384fb77d9e19bba5c77a2"
-  integrity sha512-b8LgH8PLk0azSv4hZ9mlish4+9kdMWwYck+lMIyusdLORPG7xtBfIYzwR0JQCrT7YOxLQftyILzVEc1twqTxdA==
+"@gyron/babel-plugin-jsx@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@gyron/babel-plugin-jsx/-/babel-plugin-jsx-0.0.16.tgz#74bfe19bbdf61c13e16030d09fda0c03d85fec39"
+  integrity sha512-So3ZA36qpg7RQ4Hp/QIxcUneaX+fFToDcbxQHuu+N9okbubOvRFg1q2Yqyr8XiiDXXtMiUALazks3WCHdZCkYQ==
   dependencies:
     "@babel/core" "^7.18.5"
     "@babel/plugin-syntax-jsx" "^7.16.7"
     "@babel/plugin-transform-typescript" "^7.17.12"
-    "@gyron/shared" "^0.0.15"
-    gyron "^0.0.16-alpha.1"
+    "@gyron/shared" "^0.0.16"
+    gyron "^0.0.16"
 
-"@gyron/redux@^0.0.16-alpha.1":
-  version "0.0.16-alpha.1"
-  resolved "https://registry.npmmirror.com/@gyron/redux/-/redux-0.0.16-alpha.1.tgz#f2031e3a83e7b57b46d76ca82542ebb1827bc635"
-  integrity sha512-Von2KbMTJuYKqBYoq4Z9YOf6Doj28lL37DTTlS3y9sVEIzaqc+s8LMKvOA0tOT78reyHpnGNEbzRtUpypcH+Rw==
+"@gyron/redux@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@gyron/redux/-/redux-0.0.16.tgz#3a3500418b66362d70e8c30eb77e1cb408020e5c"
+  integrity sha512-7QX6/NElRt7RwH/nhgD5+8ExFJqkXYEUJ1Y2ZUVA3tS0Hv1sDu0ZltDnWfAhh/QusVukzbsP/R84BLByeKeE1A==
   dependencies:
-    "@gyron/runtime" "^0.0.16-alpha.1"
-    "@gyron/shared" "^0.0.15"
-    "@gyron/sync" "^0.0.15"
+    "@gyron/runtime" "^0.0.16"
+    "@gyron/shared" "^0.0.16"
+    "@gyron/sync" "^0.0.16"
     "@reduxjs/toolkit" "^1.8.1"
 
-"@gyron/router@^0.0.16-alpha.1":
-  version "0.0.16-alpha.1"
-  resolved "https://registry.npmmirror.com/@gyron/router/-/router-0.0.16-alpha.1.tgz#11adee873dbdb920d5d53cfabfc03675a1a70782"
-  integrity sha512-Dmp7phl8wlu5hG2GWq+eF4Wdfxi227d8tztiQcln0r4oa+YhI4XmkbsSWy+QVC/D0c7BOXHDyntOTXtEZd7i6A==
+"@gyron/router@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@gyron/router/-/router-0.0.16.tgz#a5967ead203edb6931501f46d3c9f7ec90d546ac"
+  integrity sha512-bPMhzUn/Tz+dyClgl5AqkOCdmMTPCdFGRJ/gIx7G3Q4VUeNaRm8775zPme3LCmxgmwzb8VVKuvTsqC+ClXcmPw==
   dependencies:
-    "@gyron/runtime" "^0.0.16-alpha.1"
-    "@gyron/shared" "^0.0.15"
-    "@gyron/sync" "^0.0.15"
+    "@gyron/runtime" "^0.0.16"
+    "@gyron/shared" "^0.0.16"
+    "@gyron/sync" "^0.0.16"
     history "^5.3.0"
     path-to-regexp "^6.2.0"
 
-"@gyron/runtime@^0.0.16-alpha.1":
-  version "0.0.16-alpha.1"
-  resolved "https://registry.npmmirror.com/@gyron/runtime/-/runtime-0.0.16-alpha.1.tgz#2f73f056b1239cdecebea6ab228d8f8d34f93bb0"
-  integrity sha512-LF+N1YmNTcfhzfYnDbJcukMtNUeIbEMG/+vDjqt8pSgXuULLQh3PjbgB2cIrdvB53SQ1eBcARONXasXgRwO2WA==
+"@gyron/runtime@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@gyron/runtime/-/runtime-0.0.16.tgz#9a0cb40977ccc837ae6e92b2dc0875497ff8d52d"
+  integrity sha512-wPDJ7oe2K8+gEI2q7XjIM5RPR+zOYPcENfLNiQzq7X4+u0DjyGI9xARvY64F4E9b3P5ltb6UVXGbBDLzaraA3w==
 
-"@gyron/shared@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.npmmirror.com/@gyron/shared/-/shared-0.0.15.tgz#5ada2e8ba57c9085a678eb08ae0f53a309ed04c9"
-  integrity sha512-LWv4e3enVg5UesFECPf1XzzkunqXtjYOEhXon1ZGEiIb2gqwynM8vJVuCWA2/5P+pDJq2Gj8ja/SZqzHQLw75g==
+"@gyron/shared@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@gyron/shared/-/shared-0.0.16.tgz#c7da2b44a215610505d5358a940a7d7d04e65a6d"
+  integrity sha512-fqV7x8z+guz601RNz/d2PO2nFr/oYdRafpSmp81Z3okMhKYDKnEwpCySUqZQaEJrQ1x9nLMOahISKhUdE1cMuQ==
 
-"@gyron/sync@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.npmmirror.com/@gyron/sync/-/sync-0.0.15.tgz#623272645283a12bb7210135c5d3323729d812c7"
-  integrity sha512-/BzveC1Olt0E3mtXjkKcPFcJFtHXIefOxLCn+y02mPmxmzMUB+zwZH9mQHY4L+BmFn84bXIyHAy6eIWCnVYy6w==
+"@gyron/sync@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/@gyron/sync/-/sync-0.0.16.tgz#f1253f908bd0e373677fae3236094f6e2e7019a3"
+  integrity sha512-x+wFhxz+ZhxFkKikQsA1aHXHbHA8VKSZNj44ozBlofqlMA1KOsoih6RB+nUUBsqlDZobRcQwh6lKNRnGCSSizg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -2204,12 +2204,12 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-gyron@^0.0.16-alpha.1:
-  version "0.0.16-alpha.1"
-  resolved "https://registry.npmmirror.com/gyron/-/gyron-0.0.16-alpha.1.tgz#3845fa4df0fac4caca5f334355338946a29f1cdb"
-  integrity sha512-0Q9vBax6nTid4CFnBPCvatzjMXTlaAYlowWTK1gDr3Rkm0NqfeDFBXguZUmZoDqOSwfkQZzXIUkHsunTAUeHtQ==
+gyron@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.npmmirror.com/gyron/-/gyron-0.0.16.tgz#0f4a52bc93a2abdd85b31c80cf19f18959f6457b"
+  integrity sha512-PfPVPrctHaJXWJJHp7iS6soHsZBmkTuR3JyOlmEb9BZeYLNQ7TM0cpWZ8uPpVi9hzIwkEAN7uqEEP9RzLQ75fQ==
   dependencies:
-    "@gyron/runtime" "^0.0.16-alpha.1"
+    "@gyron/runtime" "^0.0.16"
     csstype "^3.1.0"
 
 has-flag@^3.0.0:
