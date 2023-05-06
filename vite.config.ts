@@ -16,6 +16,6 @@ export default ({ mode }) => {
         },
       ],
     },
-    plugins: [babelViteJsx({ hmr: mode === "development", setup: true })],
+    plugins: [babelViteJsx({ hmr: mode === "development" })],
   });
 };

@@ -1,15 +1,12 @@
-import { FC } from "gyron";
-import { useSelector, useDispatch } from "@gyron/redux";
-import { increment } from "@/store/module/counter";
+import { FC, useValue } from "gyron";
 
 export default FC(() => {
-  const { Counter } = useSelector();
-  const dispatch = useDispatch();
+  const count = useValue(0);
 
   return (
     <div>
-      <div onClick={() => dispatch(increment())}>
-        这是一个累加器的 Demo：{Counter.count}
+      <div onClick={() => count.value++}>
+        这是一个累加器的 Demo：{count.value}
       </div>
       <div>
         <p>相关链接</p>
