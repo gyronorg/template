@@ -4,10 +4,7 @@ import path from "path";
 
 export default ({ mode }) => {
   return defineConfig({
-    define: {
-      __DEV__: mode === "development",
-      __WARN__: true,
-    },
+    mode,
     resolve: {
       alias: [
         {
